@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name           Joe.ie StopNoScroll - 1/9/2021, 1:47:23 AM
+@namespace      github.com/crakila/joenoscroll
+@version        1.0.0
+@description    Get around the noScroll on Joe and scroll once more
+@author         Crakila
+==/UserStyle== */
+@-moz-document domain("joe.ie") {
+    @media (min-width: 767px) {
+        .noscroll {
+            overflow: unset;
+        }
+    }
+}
